@@ -1,0 +1,54 @@
+.custom-transition {
+      transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.border{
+      width: 250px;
+      height:50px;
+      background-color: rgb(227, 199, 18);
+      border-radius: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+}
+
+
+.skills__bar,
+.skills__percentage{
+    height: 10px;
+    border-radius: .5rem;
+}
+
+.skills__bar{
+    background-color: #e4e4e1;
+}
+
+.skills__percentage{
+    display: block;
+    background-color: #8f9b04;
+}
+.skills__css{
+      background-color: #ccbb04;
+      border-radius: .5rem;
+      box-shadow: 0 5px 5px rgba(69, 103, 103, 0.2);
+  }
+
+  .box {
+    background-color: rgb(223, 224, 225);
+    padding: 20px;
+    margin: 80px 50px;
+    box-shadow: 8px 8px 8px rgba(28, 28, 28, 0.7);
+    border-width: 10px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(190, 190, 29), rgb(165, 152, 77)) 1;
+    border-radius: 20px;
+}
+
+
+
+.button{
+    width: 150px;
+    height:50px;
+    background-color: rgb(42, 107, 181);
+    padding-left: 15px;
+
+}
