@@ -49,14 +49,14 @@ function Contact() {
           </div>
         </div>
         <div className="box flex-grow m-auto">
-          <div className="flex flex-col">
+          <div className="flex flex-col bg-zinc-300">
             <div className="md:text-4xl text-2xl flex font-bold font-serif justify-center flex-grow">
               Contact Us
             </div>
             <div className="text-2xl font-semibold md:flex justify-evenly pt-6 flex-grow">
               <div>
                 Address:
-                <div className="text-xl font-extralight text-yellow-600">
+                <div className="text-xl font-bold text-yellow-600">
                   Ram Gulam Tola ,Deoria
                   <br></br>
                   Uttar Pradesh
@@ -64,7 +64,7 @@ function Contact() {
               </div>
               <div className="mt-10  md:mt-0">
                 Email:
-                <div className="text-xl font-extralight text-yellow-600">
+                <div className="text-xl font-bold text-yellow-600">
                   {width < 768 ? (
                     <div>
                       prakhardeoria.2004
@@ -73,20 +73,18 @@ function Contact() {
                   ) : (
                     <div>prakhardeoria.2004@gmail.com </div>
                   )}
-                  <br></br>
-                  ms2817948@gmail.com
                 </div>
               </div>
               <div className="mt-10 md:mt-0">
                 Phone No:
-                <div className="text-xl font-extralight text-yellow-600">
+                <div className="text-xl font-bold text-yellow-600">
                   +91 6307112907
                 </div>
               </div>
             </div>
             <motion.div className="text-2xl font-bold flex justify-center mt-10 pb-8 flex-grow">
               <motion.a
-                href="https://gmail.com"
+                href="mailto:prakhardeoria.2004@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-yellow-300 p-4 rounded-lg"

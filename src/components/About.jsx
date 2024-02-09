@@ -140,7 +140,7 @@ function About() {
                 Computer science student at IIITDM Kancheepuram, good in various
                 programming languages like <b>C</b>, <b>C++</b>, <b>Python</b>,
                 and <b>JavaScript</b>, skills extend to <b>full-stack</b>{" "}
-                development using <b>ReactJS, Next.js</b>,<b>MongoDb, MySQL</b>
+                development using <b>ReactJS, Next.js</b>,<b>MongoDb, MySQL </b>
                 interested to enhance skill in software development. Currently
                 interested to contribute in web development and ML area. Beyond
                 coding, I am keen on discussing global affairs, including

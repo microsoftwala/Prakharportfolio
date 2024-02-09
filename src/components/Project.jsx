@@ -70,23 +70,23 @@ function Project() {
             <ProjectCard
               key={1}
               image={Bank}
-              link = "https://github.com/ANIKEtguPta77/bank"
+              link="https://github.com/ANIKEtguPta77/bank"
               title="Banking Website"
               width={width}
               data="This Website comes under DBMS Project."
-              linksval = "Github Repo"
-              method="This project I did in group so here we basically impelemented basic banking functionality using React(Frontend) and Node Js(Backend) so here you can open your account using your Email and Phone no you will get OTP for verification(Here we used Twillio) after succesfully opened account you can do basic banking operation."
+              linksval="Github Repo"
+              method="Our collaborative effort resulted in a sophisticated banking platform, merging React for frontend and Node.js for backend development. Users securely open accounts with email and phone number verification, reinforced by OTP authentication through Twilio. Upon registration, users access a comprehensive suite of banking functionalities, including balance inquiries, fund transfers, and transaction tracking. Our technology stack ensures dynamic and responsive interfaces across devices, prioritizing user experience. Stringent security measures, including encryption protocols, fortify user data. Meticulous integration of frontend and backend components ensures smooth data flow and a cohesive user journey. Fueled by innovation and excellence, our project delivers a professional-grade banking solution set to redefine the digital banking landscape."
             />
           </div>
           <div className="mb-6 flex justify-center">
             <ProjectCard
               image={Dash}
               key={2}
-              linksval = "Github Repo"
+              linksval="Github Repo"
               title="Dashboard"
               width={width}
               data="This was developed by me using React to check my skills."
-              method="While learning React, I got interested in adding different types of charts to my website. It was fun exploring how to display data visually. I tried out various kinds of charts like line charts and pie charts. It was cool seeing my website come to life with colorful charts that made the data easy to understand."
+              method="During my React journey, I delved into integrating diverse charts into my website, igniting my interest in visual data representation. Experimenting with line charts and pie charts was exhilarating, breathing life into my website with vibrant visuals that enhanced data comprehension. Exploring chart implementation not only enriched my React skills but also elevated my understanding of data visualization's significance."
             />
           </div>
         </motion.div>
@@ -100,11 +100,11 @@ function Project() {
           <div className="mb-6 flex justify-center">
             <ProjectCard
               key={3}
-              linksval = "Github Repo"
+              linksval="Github Repo"
               image={Test}
               title="Test Conducting Website"
               width={width}
-              link = "https://github.com/microsoftwala/Testwebsite2"
+              link="https://github.com/microsoftwala/Testwebsite2"
               data="This was given by HCL."
               method="Welcome to our Full Stack website, where the power of Django technology brings your personalized learning experience to life! Dive into a world where testing is tailored to your individual journey, providing a unique and enriching way to gauge your knowledge and progress. Explore our platform, where after completing a test, you can instantly view your results, unlocking insights into your strengths and areas for growth.But our platform isn't just for learners; teachers are invited to join the community and contribute their expertise by crafting thought-provoking questions. Together, we create an ecosystem of learning that's vibrant, collaborative, and constantly evolving. Join us on this exciting educational adventure, where every question posed is a step towards enlightenment!"
             />
@@ -113,8 +113,8 @@ function Project() {
             <ProjectCard
               image={Sae}
               key={4}
-              linksval = "Github Repo"
-              link = "https://github.com/microsoftwala/spon"
+              linksval="Github Repo"
+              link="https://github.com/microsoftwala/spon"
               title="College Club Website"
               width={width}
               data="This was my college SAE club website which was developed by me and my team."
@@ -132,9 +132,9 @@ function Project() {
           <div className="mb-6 flex justify-center">
             <ProjectCard
               image={News}
-              linksval = "Github Repo"
+              linksval="Github Repo"
               title="News Website"
-              link = "https://github.com/microsoftwala/newsWebsite"
+              link="https://github.com/microsoftwala/newsWebsite"
               width={width}
               data="This project was given by one startup for testing purpose."
               method="Utilizing a news API, I crafted a backend-free news website. Users sign in to access a personalized dashboard, displaying current headlines. With search functionality, users explore news topics of interest. The platform offers real-time updates and intuitive navigation, enhancing user engagement."
@@ -143,12 +143,12 @@ function Project() {
           <div className="mb-6 flex justify-center">
             <ProjectCard
               image={Tax}
-              link = "https://github.com/microsoftwala/Taxwebsite1"
+              link="https://github.com/microsoftwala/Taxwebsite1"
               title="Tax calculator and money Transfer"
               width={width}
               data="This Project is Full Stack"
               method="Embark on a journey of financial empowerment with our tax calculator website, meticulously crafted with ReactJS and empowered by MongoDB. Seamlessly calculate your taxes and effortlessly transfer funds with Node.js integration. Delve into a world of fiscal management where simplicity meets sophistication, empowering users to navigate their financial landscape with ease and confidence."
-              linksval = "Github Repo"
+              linksval="Github Repo"
             />
           </div>
         </motion.div>
@@ -176,7 +176,7 @@ function Project() {
                 width={width}
                 data="Code Chef"
                 method=""
-                link = "https://www.codechef.com/users/prakhar68"
+                link="https://www.codechef.com/users/prakhar68"
                 linksval="CodeChef Link"
               />
             </div>
@@ -188,7 +188,7 @@ function Project() {
                 width={width}
                 data="Code Chef"
                 method=""
-                link = "https://www.codechef.com/users/iiitdm124"
+                link="https://www.codechef.com/users/iiitdm124"
                 linksval="CodeChef Link"
               />
             </div>
@@ -208,7 +208,7 @@ function Project() {
                 width={width}
                 data="Leetcode"
                 method=""
-                link = "https://leetcode.com/prakhar_12345/"
+                link="https://leetcode.com/prakhar_12345/"
                 linksval="Leetcode Profile"
               />
             </div>
