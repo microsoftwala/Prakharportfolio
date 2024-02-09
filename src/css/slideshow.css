@@ -43,6 +43,12 @@
     border-radius: 20px;
 }
 
+@media(max-width: 767px) {
+	.box {
+		margin: 80px 22px;
+	}
+}
+
 
 
 .button{

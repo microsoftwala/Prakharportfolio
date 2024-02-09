@@ -137,11 +137,11 @@ function About() {
                 A UI/UX Designer & Web Developer
               </div>
               <div className="pt-5 font-serif">
-                Computer science student at IIITDM Kancheepuram, good in
-                various programming languages like <b>C</b>, <b>C++</b>,{" "}
-                <b>Python</b>, and <b>JavaScript</b>, skills extend to{" "}
-                <b>full-stack</b> development using <b>ReactJS, Next.js</b>,
-                <b>MongoDb, MySQL</b>interested to enhance skill in software development. Currently
+                Computer science student at IIITDM Kancheepuram, good in various
+                programming languages like <b>C</b>, <b>C++</b>, <b>Python</b>,
+                and <b>JavaScript</b>, skills extend to <b>full-stack</b>{" "}
+                development using <b>ReactJS, Next.js</b>,<b>MongoDb, MySQL</b>
+                interested to enhance skill in software development. Currently
                 interested to contribute in web development and ML area. Beyond
                 coding, I am keen on discussing global affairs, including
                 geopolitics, international relations, national politics, and
@@ -164,15 +164,13 @@ function About() {
                 </div>
                 <div className="font-bold mb-2">
                   <span className="text-gray-600">ZIP Code:</span>
-                  <span className="text-yellow-600 ml-2">274001</span>
+                  <span className="text-yellow-600 ml-2">600127</span>
                 </div>
                 <div className="font-bold mb-2">
                   <span className="text-gray-600">Address:</span>
-                  <span className="text-yellow-600 ml-2">Deoria</span>
-                </div>
-                <div className="font-bold">
-                  <span className="text-gray-600">Name:</span>
-                  <span className="text-yellow-600 ml-2">Prakhar Singh</span>
+                  <span className="text-yellow-600 ml-2">
+                    IIITDM Kancheepuram,Chennai
+                  </span>
                 </div>
               </div>
             </div>
@@ -182,12 +180,13 @@ function About() {
       <div className="mt-14 flex justify-center mb-10 w-full">
         <motion.button
           whileHover={{ scale: 1.1, backgroundColor: "gray", color: "white" }}
-          className="bg-orange-300 pt-3 pb-3 pl-7 pr-7 rounded font-bold text-2xl" onClick={handleDownload}
+          className="bg-orange-300 pt-3 pb-3 pl-7 pr-7 rounded font-bold text-2xl"
+          onClick={handleDownload}
         >
           Download Resume <ArrowDownwardIcon />
         </motion.button>
       </div>
-      <Footer/>
+      <Footer />
     </motion.div>
   );
 }
