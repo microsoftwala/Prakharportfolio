@@ -28,7 +28,7 @@ function Bar() {
         onClick={handleClick}
         className="cursor-pointer"
       >
-        {icon === true ? (
+        {icon === false ? (
           <MenuIcon className="font-bold" />
         ) : (
           <ClearIcon className="font-bold" />
