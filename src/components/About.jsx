@@ -11,7 +11,7 @@ import Footer from "./Footer.jsx";
 
 function About() {
   const handleDownload = () => {
-    const fileName = "resume.pdf";
+    const fileName = "NewResumePrakhar.pdf";
     const filePath = `${process.env.PUBLIC_URL}/${fileName}`;
     const link = document.createElement("a");
     link.href = filePath;
